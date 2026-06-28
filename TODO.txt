@@ -1,0 +1,13 @@
+THINGS TO BE DONE 
+(p.s this will be publicly tracked. No security stuff please.)
+
+Server Side:
+- jwt sectioning of directories
+- Calls to ollama
+
+Client Side:
+- Registration Handling
+- Fix first email attempt when logging in
+- Natural language requests to server
+- 2Oauth handling for platforms
+- 2Oauth validation before making requests to server
