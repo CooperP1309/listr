@@ -1,0 +1,15 @@
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/ListrApplication.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/configs/ApplicationConfiguration.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/configs/JwtAuthenticationFilter.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/configs/SecurityConfiguration.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/controllers/AuthenticationController.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/controllers/UserController.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/dtos/LoginUserDto.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/dtos/RegisterUserDto.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/entities/User.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/exceptions/GlobalExceptionHandler.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/repositories/UserRepository.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/responses/LoginResponse.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/services/AuthenticationService.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/services/JwtService.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/services/UserService.java

@@ -1,0 +1,5 @@
+/listr_server/src/main/resources/application.properties
+.vs/
+*.ipch
+*.VC.db
+*.VC.opendb

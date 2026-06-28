@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="listr_client_win/listr_client_win.vcxproj" Id="c98deb7c-9358-44c1-8c12-735de2201375" />
+</Solution>
