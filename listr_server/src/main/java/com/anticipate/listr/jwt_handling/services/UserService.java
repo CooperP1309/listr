@@ -1,7 +1,7 @@
-package com.anticipate.listr.services;
+package com.anticipate.listr.jwt_handling.services;
 
-import com.anticipate.listr.entities.User;
-import com.anticipate.listr.repositories.UserRepository;
+import com.anticipate.listr.jwt_handling.entities.User;
+import com.anticipate.listr.jwt_handling.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

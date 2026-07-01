@@ -1,4 +1,4 @@
-package com.anticipate.listr.services;
+package com.anticipate.listr.jwt_handling.services;
 
 import com.anticipate.listr.dtos.LoginUserDto;
 import com.anticipate.listr.dtos.RegisterUserDto;

@@ -1,4 +1,4 @@
-package com.anticipate.listr.responses;
+package com.anticipate.listr.jwt_handling.responses;
 
 public class LoginResponse {
     private String token;

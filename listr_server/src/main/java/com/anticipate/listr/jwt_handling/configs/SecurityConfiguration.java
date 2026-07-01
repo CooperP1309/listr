@@ -1,4 +1,4 @@
-package com.anticipate.listr.configs;
+package com.anticipate.listr.jwt_handling.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

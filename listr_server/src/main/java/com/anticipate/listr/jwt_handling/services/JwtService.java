@@ -1,4 +1,4 @@
-package com.anticipate.listr.services;
+package com.anticipate.listr.jwt_handling.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

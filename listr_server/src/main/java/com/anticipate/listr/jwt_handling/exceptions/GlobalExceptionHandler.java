@@ -1,4 +1,4 @@
-package com.anticipate.listr.exceptions;
+package com.anticipate.listr.jwt_handling.exceptions;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.security.SignatureException;

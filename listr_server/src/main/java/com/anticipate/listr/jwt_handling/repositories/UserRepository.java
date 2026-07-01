@@ -1,6 +1,6 @@
-package com.anticipate.listr.repositories;
+package com.anticipate.listr.jwt_handling.repositories;
 
-import com.anticipate.listr.entities.User;
+import com.anticipate.listr.jwt_handling.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

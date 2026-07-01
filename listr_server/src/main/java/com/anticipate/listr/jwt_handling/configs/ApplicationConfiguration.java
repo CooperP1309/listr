@@ -1,7 +1,7 @@
-package com.anticipate.listr.configs;
+package com.anticipate.listr.jwt_handling.configs;
 
 
-import com.anticipate.listr.repositories.UserRepository;
+import com.anticipate.listr.jwt_handling.repositories.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

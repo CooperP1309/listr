@@ -1,4 +1,4 @@
-package com.anticipate.listr.entities;
+package com.anticipate.listr.jwt_handling.entities;
 
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;

@@ -1,4 +1,4 @@
-package com.anticipate.listr.dtos;
+package com.anticipate.listr.jwt_handling.dtos;
 
 public class LoginUserDto {
     private String email;

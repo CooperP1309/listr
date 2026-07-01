@@ -1,7 +1,7 @@
-package com.anticipate.listr.controllers;
+package com.anticipate.listr.jwt_handling.controllers;
 
-import com.anticipate.listr.entities.User;
-import com.anticipate.listr.services.UserService;
+import com.anticipate.listr.jwt_handling.entities.User;
+import com.anticipate.listr.jwt_handling.services.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

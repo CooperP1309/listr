@@ -1,6 +1,6 @@
-package com.anticipate.listr.configs;
+package com.anticipate.listr.jwt_handling.configs;
 
-import com.anticipate.listr.services.JwtService;
+import com.anticipate.listr.jwt_handling.services.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

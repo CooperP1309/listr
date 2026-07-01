@@ -1,11 +1,11 @@
-package com.anticipate.listr.controllers;
+package com.anticipate.listr.jwt_handling.controllers;
 
-import com.anticipate.listr.entities.User;
-import com.anticipate.listr.dtos.LoginUserDto;
-import com.anticipate.listr.dtos.RegisterUserDto;
-import com.anticipate.listr.responses.LoginResponse;
-import com.anticipate.listr.services.AuthenticationService;
-import com.anticipate.listr.services.JwtService;
+import com.anticipate.listr.jwt_handling.entities.User;
+import com.anticipate.listr.jwt_handling.dtos.LoginUserDto;
+import com.anticipate.listr.jwt_handling.dtos.RegisterUserDto;
+import com.anticipate.listr.jwt_handling.responses.LoginResponse;
+import com.anticipate.listr.jwt_handling.services.AuthenticationService;
+import com.anticipate.listr.jwt_handling.services.JwtService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
