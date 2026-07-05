@@ -39,9 +39,9 @@ int Listr_Client::login()
 	std::string password;
 
 	std::cout << "Enter Email: ";
-	std::getline(std::cin, email);
+	std::cin >> email;
 	std::cout << "\n\nEnter Password: ";
-	std::getline(std::cin, password);
+	std::cin >> password;
 
 	jwt_token = "";
 
