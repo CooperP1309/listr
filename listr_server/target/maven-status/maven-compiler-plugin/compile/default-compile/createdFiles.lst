@@ -1,0 +1,15 @@
+com\anticipate\listr\jwt_handling\configs\JwtAuthenticationFilter.class
+com\anticipate\listr\jwt_handling\exceptions\GlobalExceptionHandler.class
+com\anticipate\listr\jwt_handling\services\AuthenticationService.class
+com\anticipate\listr\jwt_handling\responses\LoginResponse.class
+com\anticipate\listr\jwt_handling\dtos\LoginUserDto.class
+com\anticipate\listr\jwt_handling\configs\SecurityConfiguration.class
+com\anticipate\listr\jwt_handling\configs\ApplicationConfiguration.class
+com\anticipate\listr\jwt_handling\services\JwtService.class
+com\anticipate\listr\jwt_handling\entities\User.class
+com\anticipate\listr\ListrApplication.class
+com\anticipate\listr\jwt_handling\dtos\RegisterUserDto.class
+com\anticipate\listr\jwt_handling\services\UserService.class
+com\anticipate\listr\jwt_handling\repositories\UserRepository.class
+com\anticipate\listr\jwt_handling\controllers\UserController.class
+com\anticipate\listr\jwt_handling\controllers\AuthenticationController.class

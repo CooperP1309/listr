@@ -1,9 +1,9 @@
 package com.anticipate.listr.jwt_handling.services;
 
-import com.anticipate.listr.dtos.LoginUserDto;
-import com.anticipate.listr.dtos.RegisterUserDto;
-import com.anticipate.listr.entities.User;
-import com.anticipate.listr.repositories.UserRepository;
+import com.anticipate.listr.jwt_handling.dtos.LoginUserDto;
+import com.anticipate.listr.jwt_handling.dtos.RegisterUserDto;
+import com.anticipate.listr.jwt_handling.entities.User;
+import com.anticipate.listr.jwt_handling.repositories.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
