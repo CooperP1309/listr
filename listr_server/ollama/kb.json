@@ -1,0 +1,29 @@
+[
+  {
+    "endpoint": "/v2/device/{id}",
+    "method": "GET",
+    "description": "Retrieve full details for a single device by its numeric ID. Returns device identity and display names, online/offline status, approval status, network info (IP addresses, MAC addresses, DNS name, NetBIOS name), assigned owner, parent device, organization, location, node class, role, policies, backup usage statistics, backup bandwidth throttle settings, warranty dates, maintenance status, custom tags, and user-defined data.",
+    "example_queries": [
+      "get device details",
+      "look up a device by ID",
+      "fetch information about a specific machine",
+      "show me a device's status and owner",
+      "find a device's IP address",
+      "what organization does this device belong to",
+      "is this device online or offline",
+      "get backup usage for a device",
+      "show device warranty information",
+      "what policy is assigned to this device",
+      "get maintenance status for a machine",
+      "find the assigned technician for a device"
+    ],
+    "parameters": {
+      "id": {
+        "type": "integer",
+        "required": true,
+        "in": "path",
+        "description": "Numeric device ID"
+      }
+    }
+  }
+]

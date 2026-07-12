@@ -1,0 +1,14 @@
+{
+  "model": "llama3.2",
+  "stream": false,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an API router. Given a user query and a list of candidate endpoints, return ONLY a JSON object with the matched endpoint URL and extracted parameters. Do not explain your answer. Do not include markdown or code blocks. Example response: { \"endpoint\": \"/v2/device/42\", \"method\": \"GET\", \"params\": { \"id\": 42 } }"
+    },
+    {
+      "role": "user",
+      "content": "KB ENTRIES:\n[\n  {\n    \"endpoint\": \"/v2/device/{id}\",\n    \"method\": \"GET\",\n    \"description\": \"Retrieve full details for a single device by its numeric ID. Returns device identity and display names, online/offline status, approval status, network info (IP addresses, MAC addresses, DNS name, NetBIOS name), assigned owner, parent device, organization, location, node class, role, policies, backup usage statistics, backup bandwidth throttle settings, warranty dates, maintenance status, custom tags, and user-defined data.\",\n    \"example_queries\": [\n      \"get device details\",\n      \"look up a device by ID\",\n      \"fetch information about a specific machine\",\n      \"show me a device's status and owner\",\n      \"find a device's IP address\",\n      \"what organization does this device belong to\",\n      \"is this device online or offline\",\n      \"get backup usage for a device\",\n      \"show device warranty information\",\n      \"what policy is assigned to this device\",\n      \"get maintenance status for a machine\",\n      \"find the assigned technician for a device\"\n    ],\n    \"parameters\": {\n      \"id\": {\n        \"type\": \"integer\",\n        \"required\": true,\n        \"in\": \"path\",\n        \"description\": \"Numeric device ID\"\n      }\n    }\n  }\n]\n\nQuery: \"get details for device 42\"\n\nRespond with: { \"endpoint\": \"...\", \"method\": \"...\", \"params\": { ... } }"
+    }
+  ]
+}

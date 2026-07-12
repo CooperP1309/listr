@@ -138,22 +138,6 @@ else
     exit 1
 fi
 
-echo "Building LLM embeddings knowledge base..."
-echo
-
-./ollama/embed_kb.sh
-echo
-
-echo "Validating LLM KB build..."
-
-if [[ -s ./ollama/kb_embeddings.json ]]; then
-    echo "LLM KB build successful."
-else
-    echo "Error: LLM KB build failed."
-    exit 1
-fi
-
-
 clear
 echo
 echo "--------- Setup Complete ---------"
