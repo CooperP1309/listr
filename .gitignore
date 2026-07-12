@@ -1,4 +1,6 @@
 /listr_server/src/main/resources/application.properties
+/listr_server/ollama/kb_embeddings.json
+/listr_server/ollama/test_lama.py
 .vs/
 *.ipch
 *.VC.db

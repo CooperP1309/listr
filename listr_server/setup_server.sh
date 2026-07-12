@@ -10,6 +10,11 @@ if ! command -v docker &> /dev/null; then
     exit 1
 fi
 
+if ! command -v awk &> /dev/null; then
+    echo "Error: awk is not installed or not in PATH." >&2
+    exit 1
+fi
+
 if docker info >/dev/null 2>&1; then
     echo "Docker daemon is running."
 else
@@ -115,6 +120,7 @@ sleep 5
 
 if docker ps | grep -q mysqldb; then
     echo "MySQL container is running."
+    echo
 else
     echo "Error: MySQL container is not running."
     exit 1
@@ -126,29 +132,21 @@ sleep 5
 
 if docker ps | grep -q ollama-llm; then
     echo "LLM container is running."
+    echo
 else
     echo "Error: LLM container is not running."
     exit 1
 fi
 
 echo "Building LLM embeddings knowledge base..."
+echo
 
-sleep 5
-
-curl -s http://localhost:11434/api/embeddings -d @policies.md
+./ollama/embed_kb.sh
+echo
 
 echo "Validating LLM KB build..."
-echo
-echo "Test query..."
-echo '{"model":"llama3","prompt":"List all devices in the system"}'
-echo
-response=$(curl -s http://localhost:11434/api/generate -d '{"model":"llama3","prompt":"List all devices in the system"}')
-echo
-echo "Response from LLM:"
-echo "$response"
-echo
 
-if [[ $response == *"/v2/devices"* ]]; then
+if [[ -s ./ollama/kb_embeddings.json ]]; then
     echo "LLM KB build successful."
 else
     echo "Error: LLM KB build failed."
