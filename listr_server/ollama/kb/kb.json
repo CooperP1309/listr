@@ -1,0 +1,85 @@
+[
+  {
+    "endpoint": "/v2/device/{id}",
+    "method": "GET",
+    "description": "Retrieve full details for a single device by its numeric ID. Returns device identity and display names, online/offline status, approval status, network info (IP addresses, MAC addresses, DNS name, NetBIOS name), assigned owner, parent device, organization, location, node class, role, policies, backup usage statistics, backup bandwidth throttle settings, warranty dates, maintenance status, custom tags, and user-defined data.",
+    "example_queries": [
+      "get device details",
+      "look up a device by ID",
+      "fetch information about a specific machine",
+      "show me a device's status and owner",
+      "find a device's IP address",
+      "what organization does this device belong to",
+      "is this device online or offline",
+      "get backup usage for a device",
+      "show device warranty information",
+      "what policy is assigned to this device",
+      "get maintenance status for a machine",
+      "find the assigned technician for a device"
+    ],
+    "parameters": {
+      "id": {
+        "type": "integer",
+        "required": true,
+        "in": "path",
+        "description": "Numeric device ID"
+      }
+    }
+  },
+  {
+    "endpoint": "/v2/users",
+    "method": "GET",
+    "description": "Retrieve a list of all users. Returns each user's identity details (ID, UID, first/last name, email, phone), account status (enabled, administrator, must-change-password, MFA configured), client access and notification permissions, user type, invitation status, associated organization, assigned/associated device IDs, and assigned roles.",
+    "example_queries": [
+      "list all users",
+      "get all technicians",
+      "find a user by email",
+      "show which users are administrators",
+      "who has MFA configured",
+      "get users for an organization",
+      "find devices assigned to a user",
+      "show user invitation status",
+      "which users have not changed their password",
+      "list users and their roles",
+      "find users with client notification permissions",
+      "get user account details"
+    ],
+    "parameters": {}
+  },
+  {
+    "endpoint": "/v2/organizations",
+    "method": "GET",
+    "description": "Retrieve a list of all organizations. Returns each organization's ID, name, description, user-defined data, and node approval mode (how newly discovered devices are approved into the organization).",
+    "example_queries": [
+      "list all organizations",
+      "get organization details",
+      "find an organization by name",
+      "show organization node approval mode",
+      "get user-defined data for an organization",
+      "which organizations auto-approve new devices",
+      "list organization IDs and names",
+      "get description for an organization",
+      "find all client organizations",
+      "show organization settings"
+    ],
+    "parameters": {}
+  },
+  {
+    "endpoint": "/v2/policies",
+    "method": "GET",
+    "description": "Retrieve a list of all policies. Returns each policy's ID, parent policy ID (for inheritance), name, description, applicable node class, last updated timestamp, and whether it is the default policy for its node class.",
+    "example_queries": [
+      "list all policies",
+      "get policy details",
+      "find a policy by name",
+      "what is the default policy for Windows servers",
+      "show policy inheritance",
+      "find the parent policy of a policy",
+      "when was a policy last updated",
+      "list policies for a specific node class",
+      "get description for a policy",
+      "find all default policies"
+    ],
+    "parameters": {}
+  }
+]

@@ -6,6 +6,7 @@ Server Side:
 - Make optional automation of mvn and docker downloading
 - jwt sectioning of directories
 - Calls to ollama
+- Automate creation of request files from existing KB entries
 
 Client Side:
 - Registration Handling
