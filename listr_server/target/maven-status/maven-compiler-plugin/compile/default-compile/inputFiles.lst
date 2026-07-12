@@ -13,3 +13,4 @@
 /home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/jwt_handling/services/AuthenticationService.java
 /home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/jwt_handling/services/JwtService.java
 /home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/jwt_handling/services/UserService.java
+/home/cooperp/projects/listr/listr_server/src/main/java/com/anticipate/listr/llm_handling/controllers/QueryController.java

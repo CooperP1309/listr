@@ -2,6 +2,7 @@ THINGS TO BE DONE
 (p.s this will be publicly tracked. No security stuff please.)
 
 Server Side:
+- In setup script, enforce minimum chars for SQL root psswrd
 - Make startup script that checks condition of docker
 - Make optional automation of mvn and docker downloading
 - jwt sectioning of directories
