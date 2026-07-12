@@ -2,6 +2,8 @@ THINGS TO BE DONE
 (p.s this will be publicly tracked. No security stuff please.)
 
 Server Side:
+- Make startup script that checks condition of docker
+- Make optional automation of mvn and docker downloading
 - jwt sectioning of directories
 - Calls to ollama
 
